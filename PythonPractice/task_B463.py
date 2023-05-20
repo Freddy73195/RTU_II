@@ -14,6 +14,7 @@
 - записать строку в файл, разбивая на строки, при этом на каждой строке записывать не более 100 символов
   при этом не делить слова.
 """
+
 import string
 import re
 def wiki_function(file):
@@ -56,4 +57,4 @@ def wiki_function(file):
     return text
 
 # Вызов функции
-wiki_function("EVA.txt")
+wiki_function("C:\\Users\\Witcher\\Desktop\\GitHub\\RTU_II\\PythonPractice\\EVA.txt")
